@@ -1,0 +1,40 @@
+/* USF CSS Template - General Styles */
+
+/* Reset/Normalize */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* USF Color Palette */
+:root {
+  --usf-blue: #0056b3; /* USF Blue */
+  --usf-orange: #e37a2e; /* USF Orange */
+  --usf-font-primary: "Trade Gothic Next LT Pro", sans-serif;
+}
+
+/* Header */
+header {
+  background-color: var(--usf-blue);
+  color: white;
+  padding: 10px 20px;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Content */
+.main-content {
+  padding: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
